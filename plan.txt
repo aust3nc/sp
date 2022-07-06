@@ -1,0 +1,17 @@
+ *user enters query* >> [webcrawler grabs/parses information, dumps in .txt] >> [text summarization]
+
+
+
+# def make_query():
+#     userQuery = input("Enter your query: ")
+#     links = []
+#     for link in search(userQuery, tld='co.in', num=5, stop=5, pause=2):
+#         links.append(link)
+#         for url in links:
+#             print(url)
+#             soup = BeautifulSoup(requests.get(url).text, 'html.parser')
+#             for strings in soup.find_all('p'):
+#                 with open("raw.txt", "w") as output:
+#                     output.write(str(strings))
+
+# make_query()
